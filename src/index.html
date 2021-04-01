@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body class="body">
+    <main>
+      <section class="licenses container">
+        <div class="licenses__content">
+          <form class="form">
+            <div class="radio form__item">
+              <input class="custom-radio" type="radio" id="license#1" name="license" value="#1" checked />
+              <label for="license#1">license#1</label>
+              <p class="form__item-pirce">$<span id="price">13</span> per license</p>
+            </div>
+
+            <div class="radio form__item">
+              <input  class="custom-radio"  type="radio"  id="license#2"  name="license"  value="#2"/>
+              <label for="license#2">license#2</label>
+              <p class="form__item-pirce"> $<span id="price">22</span> per license </p>
+            </div>
+
+            <div class="radio form__item">
+              <input  class="custom-radio"  type="radio"  id="license#3"  name="license"  value="#3"/>
+              <label for="license#3">license#3</label>
+              <p class="form__item-pirce">$<span id="price">34</span> per license</p>
+            </div>
+
+            <div class="quantity">
+              <p class="quantity__title">Number of license:</p>
+              <p class="quantity__select">
+                <input type="number" size="2" name="num" min="1" value="1" />
+              </p>
+            </div>
+
+            <div class="total">
+              <p class="total__title">
+                total:
+                <span id="totalPrice"> $340 </span>
+                <span class="us"> us</span>
+              </p>
+              <input class="total__submit"  type="submit"  value="buy now" />
+              <p class="total__selected">Selected plan: <span id="selected">#3</span></p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

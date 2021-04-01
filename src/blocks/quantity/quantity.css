@@ -1,0 +1,9 @@
+@import url("./__select/quantity__select.css");
+@import url("./__title/quantity__title.css");
+.quantity {
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}

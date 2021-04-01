@@ -1,0 +1,11 @@
+@import url("./__selected/total__selected.css");
+@import url("./__submit/total__submit.css");
+@import url("./__title/total__title.css");
+
+.total {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  align-items: center;
+  font-family: bebas;
+}

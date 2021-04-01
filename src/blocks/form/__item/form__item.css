@@ -1,0 +1,12 @@
+.form__item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px 18px 20px 24px;
+  font-family: "bebas";
+  font-weight: bold;
+}
+.form__item:hover {
+  background-color: #ebf4f7;
+  border: 1px solid #b8d7e2;
+}

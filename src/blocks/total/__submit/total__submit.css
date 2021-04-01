@@ -1,0 +1,11 @@
+
+
+.total__submit {
+  background-color: #33a845;
+  border-radius: 40px;
+  border: none;
+  padding: 20px 60px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}

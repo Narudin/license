@@ -1,0 +1,9 @@
+.total__title {
+  width: max-content;
+  color: #777;
+  padding: 20px 0;
+}
+
+.total__title span {
+  color: #3388a8;
+}
